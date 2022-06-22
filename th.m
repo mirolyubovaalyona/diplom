@@ -11,6 +11,7 @@ h=465.062
 l=456.820
 
 
+
 t=l
 o=h-l
 
@@ -75,4 +76,16 @@ th_1_L_>th_1_R_
 th_2_L_>th_2_R_
 
 
+figure
+plot(th_1_L.x,th_1_L.y)
+hold on
+plot(th_1_R.x,th_1_R.y)
+title('[0, 1]')
+hold off;
 
+figure
+plot(th_2_L.x,th_2_L.y)
+hold on
+plot(th_2_R.x,th_2_R.y)
+title('[1, k^2]')
+hold off;
